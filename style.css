@@ -150,10 +150,6 @@ img {
     margin-right: 15px;
 }
 
-.latest-title{
-    
-}
-
 .email{
    font-size: 16px;
    padding-top: 100px;
@@ -162,8 +158,10 @@ img {
    padding: 0px 10px;
    border-radius: 8px;
    border: none;
+   outline: none;
    margin-right: 17px;
    color: rgba(39, 39, 39, 0.60);
+
 }
 
 .input-btn{
