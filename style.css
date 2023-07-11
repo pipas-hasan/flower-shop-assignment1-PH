@@ -20,8 +20,6 @@ totlBody paragraph-----font-size:18px;
    display: flex;
    justify-content: space-around;
    align-items: center;
-   height: 100vh;
-   width: 100%;
    background: #fceef1;
 }
 
@@ -64,18 +62,26 @@ totlBody paragraph-----font-size:18px;
 section{
     margin: 80px 0px;
 }
-/* .featured-header{
+.featured-header{
    text-align: center;
-} */
-
-.body-title{
-
 }
+
+.body-title {
+        font-size: 40px;
+        font-weight: 800;
+}
+
 
 .body-text{
-
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.60);;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    width: 600px;
+    text-align: center;
+    margin: 0px auto;
 }
-
 
 .featured-text{
     width: 594px;
@@ -94,29 +100,34 @@ section{
     text-align: center;
 }
 
-.linktag{
-    display: inline-block;
-    text-align: center;
-}
 
+.linktag{
+    padding-top: 25px;
+    line-height: 35px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #272727;
+    display: inline-block;
+}
 
 .featured-container{
     width: 1100px;
     margin: 0 auto;
 }
 
-.images-one{
+.images-round{
 
    border: 1px solid rgba(167, 33, 98, 0.15);
    border-radius: 300px 300px 0px 0px;
    background: rgba(167, 33, 98, 0.15);
-   padding-top: 100px;
+   padding-top: 60px;
 
 }
 
 img {
-        width: 345px;
-        height: 330px;
+        width: 330px;
+        height: 350px;
+        padding: 0px 40px;
 }
     
 /*----- Hot Deal ! Sale Up To 25% Off ------- */
@@ -133,9 +144,10 @@ img {
      width: 850px;
      margin: 0px auto;
      text-align: center;
+     padding-left: 80px;
 }
 .hotdeal-title{
-   font-size: 35px; 
+   font-size: 34px; 
    font-weight: 800;
 }
 
@@ -144,8 +156,8 @@ img {
     line-height: 30px;
     color: rgba(39, 39, 39, 0.60);;
     padding-top: 10px;
-    padding-bottom: 40px;
-    width: 470px;
+    padding-bottom: 30px;
+    width: 600px;
     text-align: center;
     margin: 0px auto;
 
@@ -175,14 +187,15 @@ img {
     border: none;
     cursor: pointer;
 }
+
+
+
 /* --------Instagram---------- */
 .instagram-container{
     text-align: center;
 }
 
-.instagram-text{
 
-}
 
 .instagram-title{
     font-size: 40px;
@@ -206,6 +219,39 @@ img {
     gap: 10px;
     padding: 0px 8px;
   }
+/* -------------extra-section -----------*/
+.rose-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    width: 1150px;
+}
+.rose-content{
+    text-align: center;
+}
+.rose-title{
+    font-size: 40px;
+}
+.rose-text{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    padding-top: 15px;
+    padding-bottom: 40px;
+    width: 645px;
+    text-align: center;
+    margin: 0px auto;
+}
+.rose-photo {
+    width: 475px;
+  }
+
+.rose-photo img{
+    width: 460px;
+    height: 364px;
+}
+
 
 /*----- Get The Latest Deals---------- */
 .latest-container{
