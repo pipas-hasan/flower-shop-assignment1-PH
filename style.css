@@ -3,7 +3,7 @@ font-family: sans-serif;
 button------background: #E55473;
 section-----margin-top:70px; margin-bottom:70px;
 header-section------h2-title: font-size: 80px; color: #272727;
-main-section------h2-title: font-size:40px;
+main-section------h2-title: font-size:40px; color:color: rgba(39, 39, 39, 0.60);
 footer-section------h2-title: font-size:48px;
 totlBody paragraph-----font-size:18px;
 */
@@ -49,6 +49,7 @@ totlBody paragraph-----font-size:18px;
     padding: 20px 40px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 .banner-photo img{
@@ -63,14 +64,151 @@ totlBody paragraph-----font-size:18px;
 section{
     margin: 80px 0px;
 }
-.featured-header{
+/* .featured-header{
    text-align: center;
+} */
+
+.latest-title{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
 }
 
-.body-title{
-    font-size: 40px;
+.latest-para{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.60);;
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
+
 
 .featured-text{
+    width: 594px;
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    margin: 0px auto;
+    padding: 24px 0px;
+    line-height: 30px;
+}
+
+.images-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.linktag{
+    display: inline-block;
+    text-align: center;
+}
+
+
+.featured-container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.images-one{
+
+   border: 1px solid rgba(167, 33, 98, 0.15);
+   border-radius: 300px 300px 0px 0px;
+   background: rgba(167, 33, 98, 0.15);
+   padding-top: 100px;
+
+}
+
+img {
+        width: 345px;
+        height: 330px;
+}
+    
+
+
+
+
+/*----- Get The Latest Deals---------- */
+.latest-container{
+   background: url('./images/Rectangle\ 9.png');
+   width: 1100px;
+   height: 350px;
+   margin: 0px auto;
+   position: relative;
+}
+
+.latest-text{
+    position: absolute;
+    justify-content: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 700px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.latest-title{
     
 }
+
+.email{
+   font-size: 16px;
+   padding-top: 100px;
+   width: 500px;
+   height: 45px;
+   padding: 0px 10px;
+   border-radius: 8px;
+   border: none;
+   margin-right: 17px;
+   color: rgba(39, 39, 39, 0.60);
+}
+
+.input-btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    background: #E55473;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+/* -----------footer section------------- */
+.footer-container{
+    padding: 100px 0px;
+    color:#FFF;
+    background: #111010;
+    text-align: center;
+}
+
+.frist-span{
+    font-size: 48px;
+    font-weight: 800px;
+    color: #E55473;
+}
+
+.second-span{
+    font-size: 48px;
+    font-weight: 800px;
+    color: #FFF;
+}
+
+.footer-para{
+    font-size: 18px;
+    width: 620px;
+    margin: 20px auto;
+    line-height: 30px;
+}
+
+.footer-date{
+    padding-top: 15px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.40)
+}
+
+
+
