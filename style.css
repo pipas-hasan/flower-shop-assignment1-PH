@@ -119,6 +119,62 @@ img {
         height: 330px;
 }
     
+/*----- Hot Deal ! Sale Up To 25% Off ------- */
+.hotdeal-container{
+   background-color: #fef6f8;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   padding: 50px 0px;
+}
+
+.hotdeal-text{
+     width: 850px;
+     margin: 0px auto;
+     text-align: center;
+}
+.hotdeal-title{
+   font-size: 35px; 
+   font-weight: 800;
+}
+
+.hotdeal-para{
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.60);;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    width: 470px;
+    text-align: center;
+    margin: 0px auto;
+
+}
+   
+.hotdeal-color{
+    color: #E55473;
+}
+.hotdeal-photo {
+    width: 550px;
+    margin: 0px auto;
+    text-align: start;
+  }
+
+.hotdeal-photo img{
+    width: 300px;
+    height: 350px;
+}
+
+.hotdeal-btn{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    background: #E55473;
+    padding: 16px 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
 /* --------Instagram---------- */
 .instagram-container{
     text-align: center;
